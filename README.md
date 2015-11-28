@@ -11,7 +11,7 @@ gencontext is a golang tool that allows the creation of context storage and reca
 mydata/mydata.go:
 	package mydata
 
-	//go:generate gencontext -type int 
+	//go:generate gencontext -type int .
 
 main.go:
 	package main
